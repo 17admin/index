@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>17administration</title>
+    
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="bxslider-4-4.2.12/dist/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="bxslider-4-4.2.12/dist/jquery.bxslider.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <script>
+    
+    $(document).ready(function(){
+        $("#slide").bxSlider({
+            auto: true,
+        }) 
+    })
+    
+    
+    </script>
+    
+    
+    
+</head>
+<body>
+    
+<!--   #wrap>header+main+section+footer-->
+   <div id="wrap">
+       <header>
+<!--           .boxalign>#lnav+#logo+#rnav-->
+           <div class="boxalign">
+               <div id="lnav">
+<!--                   div*2>a[#]+ul.sub-->
+                   <div>
+                       <a href="#">소개</a>
+                       <ul class="sub">
+<!--                           li*2>a[#]-->
+                           <li><a href="indexsub1.html">17행정</a></li>
+                           <li><a href="indexsub2.html">제작이유</a></li>
+                       </ul>
+                   </div>
+                   <div>
+                       <a href="#">디자인 시안</a>
+                       <ul class="sub">
+<!--                           li*2>a[#]-->
+                           <li><a href="indexsub3.html">포토샵</a></li>
+                           <li><a href="indexsub4.html">웹 코딩</a></li>
+                       </ul>
+                   </div>
+               </div>
+               <div id="logo">
+<!--                   h1>a[#]>img-->
+                   <h1>
+                   <a href="index.html">
+                   <img src="17ad.png" alt="">
+                   </a>
+                   </h1>
+                   
+               </div>
+               <div id="rnav">
+                   <div>
+                       <a href="#">소통</a>
+                       <ul class="sub">
+<!--                           li*2>a[#]-->
+                           <li><a href="indexsub5.html">연락도구</a></li>
+                           <li><a href="#">게시판</a></li>
+                       </ul>
+                   </div>
+                   <div>
+                       <a href="#">기타등등</a>
+                       <ul class="sub">
+<!--                           li*2>a[#]-->
+                           <li><a href="#">그냥사진</a></li>
+                           <li><a href="#">로고</a></li>
+                       </ul>
+                   </div>
+               </div>
+           </div>
+           
+           
+       </header>
+       <main>
+<!--.boxalign>span+p-->
+<div class="boxalign">
+    <span></span>
+    <p></p>
+</div>
+       </main>
+       
+   </div>
+    
+    <div id="wap">
+    <div id="slide">
+        <img src="advertise1.png" alt="">
+        <img src="advertise2.png" alt="">
+        <img src="advertise3.png" alt="">
+        <img src="advertise4.png" alt="">
+        <img src="advertise5.png" alt="">
+        <img src="advertise6.png" alt="">
+        
+        
+        
+    </div>
+     </div>
+    
+    
+    <section>
+        <div id="c1box" class="boxalign">
+<!--            img+.c1text-->
+            <img src="orange.jpg" alt="">
+            <div class="c1text">
+<!--                h2+p-->
+                <h2>귤락</h2>
+                <p>귤 겉껍질 안쪽에 그물 모양으로 생긴 하얀 섬유질을 뜻하는 말로,<br>
+                정확한 명칭은 '알베도층'이다. 식이섬유, 비타민 C와 항균·항바이러스 작용을 하는<br> 비타민 P가 풍부하게 함유되어 있어<br> 모세혈관을 튼튼하게 하고 몸에 해로운 산화작용을 억제하는 데 도움을 준다.<br> 한의학에서는 독소 배출과 소화 불량 해소 효과가 있다고 보아<br> 약재로 쓰거나 차로 달여 마신다.<br>
+[네이버 지식백과] 귤락 (시사상식사전, pmg 지식엔진연구소)</p>
+            </div>
+        </div>
+   <div id="c2box">
+       
+       <a href="#"><img src="" alt=""></a>
+       <a href="#"><img src="" alt=""></a>
+       <a href="#"><img src="" alt=""></a>
+       
+   </div>
+    
+    <div id="modal">
+            <img src="orange.jpg" alt="">
+            <p>ㅡ 귤락 사진 ㅡ
+            </p>  
+    </div>
+     
+       </section>
+      
+      
+       <footer>
+        <div class="boxalign">
+<!--            #fleft+#fright-->
+            <div id="fleft">
+<!--               ul+address-->
+               <ul>
+<!--                   li*7>a[#]+span-->
+                   <li><a href="#">회사소개</a><span></span></li>
+                   <li><a href="#">채용정보</a><span></span></li>
+                   <li><a href="#">제휴문의</a><span></span></li>
+                   <li><a href="#">출점문의</a><span></span></li>
+                   <li><a href="#">이용약관</a><span></span></li>
+                   <li><a href="#">편성기준</a><span></span></li>
+                   <li><a href="#">개인정보취급처리방침</a></li>
+               </ul>
+               <address>copyright © 17administration. All Rights Reserved</address>
+                
+            </div>
+            <div id="fright">
+<!--                h2>a[#]>img-->
+                <h2>
+                    <a href="index.html">
+                        <img src="17ad.png" alt="">
+                    </a>
+                </h2>
+            </div>
+            </div>
+<!--            a[#].top{top}-->
+            <a href="#wrap" class="top">top</a>
+        </footer>
+    
+<!--
+    <div id="pager">
+        <a data-slide-index ="0" href="#"><img src="advertise1.png" alt=""></a>
+        <a data-slide-index ="1" href="#"><img src="advertise2.png" alt=""></a>
+        <a data-slide-index ="2" href="#"><img src="advertise3.png" alt=""></a>
+        <a data-slide-index ="3" href="#"><img src="advertise4.png" alt=""></a>
+        <a data-slide-index ="4" href="#"><img src="advertise5.png" alt=""></a>
+        <a data-slide-index ="5" href="#"><img src="advertise6.png" alt=""></a>
+    </div>
+-->
+    
+    
+    <script>
+    
+    $(document).ready(function(){
+//        .open을 클릭하면 모달이 페이드인 되도록 
+        $("#c1box").click(function(){
+            $("#modal").show()
+        })
+        
+//        클로즈를 클ㄹ릭하면 모달이 페이드 아웃 되도록
+        $("#c1box").click(function(){
+            $("#modal").hide()
+            
+            
+        })
+    })
+    
+    
+    </script>
+    
+</body>
+</html>
