@@ -133,7 +133,7 @@ section{}
     display: block;
     
 }
-.ctext{
+.ctext::after{
     content:'';
     display: block;
     clear : both;

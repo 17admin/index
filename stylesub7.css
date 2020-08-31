@@ -123,9 +123,7 @@ hearder::after{
     display: block;
 }
 
-
-
-section{}
+section{width: 100%;height: 1000px;}
 section::after{
     content:'';
     display: block;
@@ -133,13 +131,13 @@ section::after{
 }
 
 .ctext{
-    width: 100%;
+    width: 1200px;
 /*    margin : 10rem 30rem 0;*/
     text-align: left;
-    position : relative;
-    float : left;
+/*    position : relative;*/
+/*    float : left;*/
+    margin-top: 6rem;
     margin-left: 8rem;
-    height: 500px;
     
 }
 .ctext::after{
@@ -147,28 +145,50 @@ section::after{
     display: block;
     clear : both;
 }
-.ctext h2{font-size: 3rem;margin-bottom: 2rem;display: inline-block;}
+.ctext h2{
+    font-size: 3rem;
+    margin-bottom: 7rem;
+    display: inline-block; 
+    width: 222px; 
+    text-align: center;
+    margin: auto;}
 
 .ctext h2:hover{background: #000;color : #fff;}
 
 .ctext p{font-size: 1.5rem;line-height: 3rem;}
-.ctext img{
+
+/*.ctext .imgs{position: relative;}*/
+
+.ctext li{
     width: 500px;
-    display: block;
+    height: 400px;
+    float : left;
+    border-bottom: 1px solid;
+    
+}
+
+.ctext p{text-align: center;font-size: 2rem;}
+
+.ctext ul li img{
+    width: 100%;
+/*    display: block;*/
 /*    position : absolute;*/
 /*    right: 40%;*/
-    top: 0;
+/*    top: 10px;*/
     transition : 0.3s;
     box-sizing: border-box;
-    float : right;
-    transform: translate(-35%,-70%);
+/*    float : left;*/
+/*    transform: translate(-49%,-74%);*/
+    padding: 1rem;margin: 1rem;
+/*    transform: translate(-2.5%,-5%)*/
+    margin-top: 2rem;
 }
 
 .ctext img:hover{
     box-shadow: 0 0 20px #000000;
-    border: 1px solid #000;
-    padding: 10px;
-    
+/*    border: 1px solid #000;*/
+/*    padding: 10px;*/
+/*    transform: translate(-49%,-50%);*/
 }
 
 

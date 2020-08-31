@@ -138,6 +138,8 @@ section::after{
     float : left;
     margin-top: 3rem;
     margin-left: 8rem;
+    margin-bottom: 5rem;
+    height: 300px;
     
 }
 .ctext::after{
@@ -152,6 +154,7 @@ section::after{
 .ctext p{font-size: 1.5rem;line-height: 3rem;}
 .ctext img{
     width: 500px;
+    
     display: block;
 /*    position : absolute;*/
 /*    right: 40%;*/
@@ -174,7 +177,7 @@ section::after{
 footer{
     overflow:hidden;
     border-top: 1px solid #ccc;
-margin-top: 23rem;}
+margin-top: 10rem;}
 
 #fleft{
     float :left;

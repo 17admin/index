@@ -133,6 +133,8 @@ position:absolute;top:0;}
         #pager a img{width: 200px;}
 */
 
+.menus{position: absolute; top: 400px;font-size: 2rem;left: 700px; color : red; border : 1px solid; padding: 10px;}
+
 main{
     width: 100%;
     height: 100px;
@@ -148,6 +150,7 @@ main{
     margin: auto;
     position:relative;
     z-index: 0;
+    
 }
 
 section{
